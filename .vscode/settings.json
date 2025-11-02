@@ -1,0 +1,5 @@
+{
+  "java.project.sourcePaths": ["assets"],
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "cSpell.words": ["allprojects"]
+}

@@ -9,7 +9,6 @@ class SignUpScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          // Background sama seperti login
           Image.asset('assets/aset.jpg', fit: BoxFit.cover),
           Container(color: Colors.black.withOpacity(0.5)),
 
@@ -36,7 +35,6 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 40),
 
-                      // Full name
                       TextField(
                         style: const TextStyle(color: Colors.white),
                         decoration: InputDecoration(
@@ -52,7 +50,6 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
 
-                      // Email
                       TextField(
                         style: const TextStyle(color: Colors.white),
                         decoration: InputDecoration(
@@ -68,7 +65,6 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
 
-                      // Password
                       TextField(
                         obscureText: true,
                         style: const TextStyle(color: Colors.white),
@@ -85,7 +81,6 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
 
-                      // Confirm password
                       TextField(
                         obscureText: true,
                         style: const TextStyle(color: Colors.white),
@@ -102,7 +97,6 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 30),
 
-                      // Tombol Register
                       SizedBox(
                         width: double.infinity,
                         height: 50,
@@ -115,7 +109,6 @@ class SignUpScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 40),
 
-                      // Link Login
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [

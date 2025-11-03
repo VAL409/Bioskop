@@ -90,7 +90,6 @@ class _CitySection extends StatelessWidget {
       elevation: 1.5,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       child: Theme(
-        // Hilangkan garis pemisah default ExpansionTile biar bersih
         data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
         child: ExpansionTile(
           iconColor: Colors.indigo,

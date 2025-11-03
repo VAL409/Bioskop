@@ -54,7 +54,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       const SizedBox(height: 24),
 
-                      // Email
                       TextField(
                         controller: email,
                         style: const TextStyle(color: Colors.white),
@@ -72,7 +71,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       const SizedBox(height: 14),
 
-                      // Password
                       TextField(
                         controller: pass,
                         obscureText: true,
@@ -90,7 +88,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       const SizedBox(height: 20),
 
-                      // Tombol Login
                       SizedBox(
                         height: 50,
                         width: double.infinity,
@@ -101,7 +98,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                       const SizedBox(height: 14),
 
-                      // Tombol Google
                       SizedBox(
                         height: 50,
                         width: double.infinity,
